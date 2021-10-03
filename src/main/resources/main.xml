@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<main>
+    <request>
+        <entry>req1</entry>
+        <entry>req2</entry>
+    </request>
+    <response>
+        <entry>res1</entry>
+        <entry>res2</entry>
+    </response>
+</main>
