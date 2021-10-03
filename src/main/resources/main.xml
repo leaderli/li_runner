@@ -8,4 +8,9 @@
         <entry>res1</entry>
         <entry>res2</entry>
     </response>
+    <funcs>
+        <func name="now" class="now">
+
+        </func>
+    </funcs>
 </main>

@@ -3,6 +3,8 @@ package com.leaderli.li_runner.internal;
 import org.apache.commons.lang3.StringUtils;
 import org.joda.time.DateTime;
 
+import java.lang.reflect.Method;
+
 public class OrderSet {
 
     public static final String DEFAULT_DATE_FORMAT = "yyyyMMdd";
@@ -20,5 +22,13 @@ public class OrderSet {
         }
 
         return DateTime.now().toString(format);
+    }
+
+
+    static {
+
+        for (Method declaredMethod : OrderSet.class.getDeclaredMethods()) {
+        }
+
     }
 }

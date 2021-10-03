@@ -15,4 +15,9 @@ class OrderSetTest {
 
     }
 
+    @Test
+    void scan(){
+        OrderSet.now();
+    }
+
 }
