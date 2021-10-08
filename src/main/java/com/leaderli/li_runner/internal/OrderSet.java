@@ -16,6 +16,7 @@ public class OrderSet {
     }
 
     public static String now(String format) {
+        System.out.println("format:"+format);
 
         if (StringUtils.isEmpty(format)) {
             format = DEFAULT_DATE_FORMAT;
@@ -28,6 +29,7 @@ public class OrderSet {
     static {
 
         for (Method declaredMethod : OrderSet.class.getDeclaredMethods()) {
+            System.out.println(declaredMethod);
         }
 
     }
